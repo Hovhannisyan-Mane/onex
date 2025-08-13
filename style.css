@@ -1,0 +1,284 @@
+@font-face {
+    font-family: montserrat;
+    src: url("./fonts/Montserratarm-Regular.otf")
+
+}
+body{
+    font-family: montserrat;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section img{
+    max-width: 1800px;
+    margin: auto;
+    display: block;
+
+    .onex{
+
+        img {
+            max-width: 1400px;
+            width: 100%;
+            background-size: cover;
+
+        }
+    }
+}
+.section-padding{
+
+    max-width: 1200px;
+    background-color: rgba(192, 192, 192, 0.2);
+    margin: auto;
+    border-radius: 20px;
+    display: block;
+}
+.container{
+    border-radius: 15px;
+    padding: 10px 0;
+    margin: auto;
+
+
+}
+
+.say-1{
+    width: 100%;
+    display: block;
+    margin-top: 25px;
+
+
+}
+.vh {
+    width: 100%;
+
+    text-align: center;
+    .star {
+        display: block;
+        margin: auto;
+    }
+
+}
+
+.star-1{
+    font-size: 8px;
+    color:#5dba2f
+
+}
+.star-2{
+    font-size: 12px;
+    color:#5dba2f
+}
+.star-3{
+    font-size: 16px;
+    color:#5dba2f
+}
+.star-4{
+    font-size: 12px;
+    color:#5dba2f
+}
+.star-5{
+    font-size: 8px;
+    color:#5dba2f
+}
+.color{
+    color: #5dba2f
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-family: bold ;
+
+}
+.text{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.input{
+    width: 90%;
+    display: flex;
+    margin: 30px auto;
+}
+.input-icon{
+    width: 80%;
+    height: 45px;
+    outline: none ;
+    border: none;
+    padding: 10px;
+    border-radius: 15px 0 0 15px;
+}
+.btn{
+    background-color: #5dba2f;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 0 15px 15px 0;
+    color: white;
+    &:hover{
+
+        cursor: pointer;
+    }
+}
+.say-2{
+    box-shadow: 0px -6px 13px 0px rgba(0,0,0,0.1);    margin-top: 60px;
+    background-color: #ffffff;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 15px 0;
+}
+
+.gap{
+    width: 50%;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 10px;
+    p{
+        font-size: 14px;
+        text-align: justify;
+
+    }
+    h2{
+        text-align: justify;
+    }
+}
+.img-1{
+    width: 30%;
+    object-fit: contain;
+}
+.btn-2{
+    background-color: #5dba2f;
+    border: none;
+    padding: 15px 60px;
+    outline: none;
+    margin-top: 20px;
+    font-size: 14px;
+    border-radius: 15px;
+    color: white;
+    &:hover{
+        cursor: pointer;
+
+    }
+
+}
+.beak{
+    background-color: white;
+
+}
+.icon{
+    object:cover;
+    margin:  10px;
+    box-shadow: 0px 8px 13px 0px rgba(0,0,0,0.1);
+
+   margin-top: 20px;
+}
+.card{
+    width: 30%;
+    padding: 10px;
+    position: relative;
+    border-radius:0 0   20px 20px;
+    &:hover{
+        cursor: pointer;
+        color: #5dba2f;
+    }
+
+    .top {
+        width: 100%;
+
+    }
+    .btn-3{
+        border-radius: 10px;
+        padding: 10px 20px;
+        border: none;
+        background-color: #5dba2f;
+
+    }
+
+}
+.btn-aa{
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 45px;
+    border-radius: 10px;
+    border:1px solid #5dba2f;
+    &:hover{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+
+}
+
+
+
+}
+.sss{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+
+
+    .comera{
+        width: 50px;
+        padding: 10px;
+    }
+}
+.nkar{
+    width: 70%;
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+
+}
+.btn-aa-1 {
+    margin-top: 30px;
+    width: 40%;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #26c641;
+
+    &:hover {
+        cursor: pointer;
+        background-color: black;
+        color: white;
+
+    }
+
+}
+.cc{
+    box-shadow: -27px 0px 47px 17px rgba(0,0,0,0.1);
+    border-radius: 30px;
+    .text{
+        padding: 0 10px;
+    }
+
+
+}
+.img-screen{
+    width: 50%;
+    object-fit: contain;
+}
+.carder{
+    width: 15%;
+
+    img{
+        width: 60%;
+        display: block;
+        margin:  20px auto;
+
+    }
+
+}
+.aaa {
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+
+    .btn-aa-1 {
+        display: block;
+        margin: auto;
+    }
+}
