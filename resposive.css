@@ -1,0 +1,32 @@
+@media only screen and (max-width: 800px){
+    .onex{
+        flex: 60%;
+    }
+    .img-1{
+        display: none;
+    }
+    .ooo {
+        max-width: 40%;
+        flex: 60%;
+    }
+    .pp{
+        width: 40%;
+        display: block;
+
+    }
+    .ii{
+        display: none;
+    }
+
+
+}
+@media only screen and (max-width: 400px){
+    .ooo{
+        max-width: 80%;
+
+    }
+    .pp{
+        width: 100%;
+
+    }
+}
